@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Dora Korpar quote
- * Return: Always 0 (Success)
+ * main - Entry point
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
