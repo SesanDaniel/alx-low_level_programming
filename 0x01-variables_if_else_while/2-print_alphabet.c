@@ -3,14 +3,18 @@
 #include <time.h>
 
 /**
- * main - Entry point
- * Return: Always 0 (Success)
- */
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
+ *     */
+
 int main(void)
 {
 	char low;
-	for (low = 'a'; low <= 'z'; low++){
+
+	for (low = 'a'; low <= 'z'; low++)
 		putchar(low);
-	}
-	return(0);
+		putchar('\n');
+
+	return (0);
 }
