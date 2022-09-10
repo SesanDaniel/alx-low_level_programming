@@ -13,7 +13,9 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 		putchar(i);
-		for (low = 'A'; low <= 'F'; low++)
-			putchar(low);
+	for (low = 'A'; low <= 'F'; low++)
+		putchar(low);
 	putchar('\n');
+
+	return (0);
 }
