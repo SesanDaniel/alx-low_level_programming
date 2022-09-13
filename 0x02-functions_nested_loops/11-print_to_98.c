@@ -4,9 +4,9 @@
 /**
  * print_to_98 -check description
  * @n: an input integer
- * Description: a function that prints all natura
- * l numbers from n to 98, followed by a new line.
- * Return: Nothing
+ * Description: a function that prints all
+ *  natural numbers from n to 98, followed by a new line.
+ *  Return: nothing
  */
 
 void print_to_98(int n)
@@ -21,18 +21,18 @@ void print_to_98(int n)
 				continue;
 			printf(", ");
 		}
-		printf("\n");
+		printf('\n')
 	}
 	else
 	{
-		for (; n>= 98; n--)
+		for (; n >= 98; n--)
 		{
 			printf("%d", n);
 
-			if (n == 98)
+			if (n ==98)
 				continue;
 			printf(", ");
 		}
-		printf("\n");
+		printf('\n');
 	}
 }
