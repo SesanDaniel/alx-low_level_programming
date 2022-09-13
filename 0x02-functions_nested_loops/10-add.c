@@ -2,14 +2,13 @@
 
 /**
  * add - check description
+ * @a: an integer
+ * @b: an integer
  * Description: a function that adds two integers and returns the result.
  * Return: Nothing
  */
 
-int add(int, int)
+int add(int a, int b)
 {
-	char a, b, num;
-	 num = (a + b);
-
-	_putchar(num);
+	return (a + b);
 }
