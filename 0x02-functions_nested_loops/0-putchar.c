@@ -6,7 +6,7 @@
 
 int main (void)
 {
-	printf("0-putchar.c");
+	putchara("0-putchar.c");
 	
 	return (0);
 }
