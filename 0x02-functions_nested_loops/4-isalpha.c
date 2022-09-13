@@ -23,4 +23,3 @@ int _islower(int c)
 
 	return (isLetter);
 }
-
