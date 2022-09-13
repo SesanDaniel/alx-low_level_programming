@@ -2,8 +2,8 @@
 
 /**
  * _islower - check description
+ * @c: An input character
  * Description: a function that checks for lowercase character.
- * @c - an input character
  * Return: Nothing
  */
 
