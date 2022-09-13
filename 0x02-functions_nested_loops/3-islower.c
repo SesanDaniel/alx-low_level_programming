@@ -3,6 +3,7 @@
 /**
  * _islower - check description
  * Description: a function that checks for lowercase character.
+ * @c - an input character
  * Return: Nothing
  */
 
@@ -18,4 +19,4 @@ int _islower(int c)
 	}
 
 	return (lower);
-}	
+}
