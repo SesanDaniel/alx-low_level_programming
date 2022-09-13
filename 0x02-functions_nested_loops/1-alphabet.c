@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check description
- * Description - A function that prints all alphabets in lowercase
+ * print_alphabet - check description
+ * Description: A function that prints all alphabets in lowercase
  * Return: Always 0 (Success)
  */
 
