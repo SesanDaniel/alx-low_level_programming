@@ -6,9 +6,8 @@
 
 int main (void)
 {
-	char _putchar;
-
-	putchar("_putchar\n");
+	
+	_putchar("_putchar\n");
 	
 	return (0);
 }
