@@ -6,9 +6,11 @@
 
 int main (void)
 {
-	int text = "_putchar"
+	char text = '_putchar';
 
-	_putchar("text\n");
+	putchar(text);
+
+	putchar("\n");
 	
 	return (0);
 }
