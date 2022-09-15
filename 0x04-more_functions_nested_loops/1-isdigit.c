@@ -19,6 +19,5 @@ int _isdigit(int c)
 			break;
 		}
 	}
-
 	return (isdigit);
 }
