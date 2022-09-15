@@ -13,7 +13,7 @@ int _isupper(int c)
 
 	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 	{
-		if (uppercase == c)								{
+		if (c == uppercase)								{
 			isupper = 1;									break;
 		}
 	}
