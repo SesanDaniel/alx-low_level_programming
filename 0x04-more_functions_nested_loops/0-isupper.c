@@ -8,15 +8,14 @@
 
 int _isupper(int c)
 {
-	char uppercase = 'A';
+	char uppercase;
 	int isupper = 0;
 
-	for (; uppercase <= 'Z'; uppercase++)
+	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 	{
-		if (c == uppercase)								{
+		if (uppercase == c)								{
 			isupper = 1;									break;
 		}
 	}
-
 	return (isupper);
 }
