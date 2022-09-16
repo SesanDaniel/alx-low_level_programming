@@ -1,16 +1,16 @@
-#include "main.h"
+#include "main.h"a
 #include <stdio.h>
 
 /**
  * main - Entry point
- * Return: Always 0 (Succes)
+ * Return: Always 0
  */
 
-int main (void)
+int main(void)
 {
 	int y;
 
-	for (y = 1; y <= 100; y++)
+	for (y = 1; y < 100; y++)
 	{
 		if (y % 3 == 0 && y % 5 == 0)
 			printf("FizzBuzz ");
