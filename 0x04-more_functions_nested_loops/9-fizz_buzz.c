@@ -1,4 +1,4 @@
-#include "main.h"a
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-int main (void)
+int main(void)
 {
 	int y;
 
