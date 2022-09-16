@@ -16,5 +16,5 @@ int main(void)
 			n /= 1;
 	}
 	printf("%lu\n", n);
-	return(0);
+	return (0);
 }
