@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /**
- * strlen - Returns the length of a given string
+ * _strlen - Returns the length of a given string
  * @s: String to be checked for length
  * Return: The length of the string
  */
 
 int _strlen(char *s)
 {
-	int 
-	
+	int
+
 	i = 0;
 	while (s[i] != '\0')
 		i++;
