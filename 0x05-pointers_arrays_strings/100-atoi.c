@@ -19,7 +19,7 @@ int _atoi(char *s)
 		if (*s >= '0' && *s <= '9')
 		{
 			zilch = 1;
-			sum = sum * 10 + *S - '0';
+			sum = sum * 10 + *s - '0';
 		}
 		else if (zilch)
 			break;
