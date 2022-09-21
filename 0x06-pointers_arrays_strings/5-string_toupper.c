@@ -7,7 +7,7 @@
  *  Return: pointer to converted strings
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	char *start = s;
 
