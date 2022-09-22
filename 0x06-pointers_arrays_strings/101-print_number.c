@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * base - power in base 10
+ * base10 - power in base 10
  * @n: an exponent
  * Return: returns 10 to power exponent
  */
