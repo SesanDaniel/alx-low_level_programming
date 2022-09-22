@@ -27,7 +27,7 @@ int base10(int n)
 void print_number(int n)
 {
 	int exp;
-	
+
 	exp = base10(8);
 
 	if (n < 0)
