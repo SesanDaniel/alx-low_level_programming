@@ -22,7 +22,7 @@ char *_strpbrk(char *s, char *accept)
 			accept++;
 		}
 		accept = ptr;
-		s++
+		s++;
 	}
 	return (NULL);
 }
