@@ -1,5 +1,5 @@
 #include "main.h"
-int _sqrt(int bfr, int root)
+int _sqrt(int bfr, int root);
 
 /**
  * _sqrt_recursion - a function that returns the natural square root of a numbe
