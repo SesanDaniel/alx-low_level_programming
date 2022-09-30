@@ -9,7 +9,7 @@
  * Return: nothing
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char **argv)
 {
 	int i, num1, num2, mul;
 
