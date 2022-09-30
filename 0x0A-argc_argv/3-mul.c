@@ -9,17 +9,20 @@
  * Return: nothing
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv[])
 {
-	int i, mul;
+	int i, num1, num2, mul;
 
-	for (i = 0; i < argc; i++)
+	if (argc != 3)
 	{
-		if (argc > 3)
-		{
-			mul = atoi(argv[1]) * atoi(argv[2]);
-			printf("%d\n", mul);
-		}
+		return (1);
+	}
+	else
+	{
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
+		mul = num1 * num2;
+		printf("%d\n", mul);
 		return (0);
 	}
 }
