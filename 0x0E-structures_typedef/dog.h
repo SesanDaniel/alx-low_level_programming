@@ -2,7 +2,7 @@
 #define MY_HEADER_
 
 /**
- * dog - A structure that defines dog
+ * dog: A structure that defines dog
  */
 struct dog
 {
