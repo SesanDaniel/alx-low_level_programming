@@ -2,7 +2,10 @@
 #define MY_HEADER_
 
 /**
- * dog: A structure that defines dog
+ * dog - structure that defines dog
+ * @name: Pointer to a character name
+ * @age: A float input
+ * @owner: Pointer to a character owner
  */
 struct dog
 {
