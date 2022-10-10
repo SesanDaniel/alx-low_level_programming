@@ -30,7 +30,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	namecpy = malloc(namelen + 1);
 	if (namecpy == NULL)
-		return(NULL);
+		return (NULL);
 	for (i = 0; name[i]; i++)
 		namecpy[i] = name[i];
 	namecpy[i] = '\0';
