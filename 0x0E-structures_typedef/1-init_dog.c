@@ -16,9 +16,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 
 	if (d == NULL)
 		return (NULL);
-	dog -> name = name;
-	dog -> age = age;
-	dog -> owner = owner;
-
-	return (dog);
+	dog->name = name;
+	dog->age = age;
+	dog->owner = owner;
 }
