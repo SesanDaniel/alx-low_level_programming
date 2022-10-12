@@ -1,5 +1,5 @@
-#ifndef _CALC_H
-#define _CALC_H
+#ifndef CALC_H
+#define CALC_H
 
 /**
  * struct op - Struct op
@@ -7,7 +7,7 @@
  * @f: The function associated
  */
 
-typdef struct op
+typedef struct op
 {
 	char *p;
 	int (*f)(int a, int b);
