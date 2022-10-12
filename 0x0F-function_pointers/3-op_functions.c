@@ -20,8 +20,8 @@ int op_add(int a, int b)
 	return  (a + b);
 }
 
-/**                                                                             
- * op_add - Returns the sum of two numbers.
+/**
+ * op_sub - Returns the sum of two numbers.
  * @a: The first number.
  * @b: The second number.
  * Return: The difference of a and b.
